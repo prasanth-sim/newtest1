@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class DivideTwoNumbers {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Ask the user to enter two numbers
+        System.out.print("Enter numerator: ");
+        double num1 = scanner.nextDouble();
+
+        System.out.print("Enter denominator: ");
+        double num2 = scanner.nextDouble();
+
+        // Check for divide-by-zero
+        if (num2 == 0) {
+            System.out.println("❌ Division by zero is not allowed.");
+        } else {
+            double result = num1 / num2;
+            System.out.println("The result is: " + result);
+        }
+
+        scanner.close();
+    }
+}
