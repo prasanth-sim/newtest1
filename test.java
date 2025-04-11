@@ -10,6 +10,3 @@ public class Test {
         System.out.println("The result of sum 5 and 10 is: " + result);
     }
 }
-
-
-commit 1
