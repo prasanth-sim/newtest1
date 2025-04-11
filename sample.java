@@ -7,7 +7,7 @@ public class SampleJava {
         System.out.print("What's your name? ");
         String name = scanner.nextLine();
 
-        System.out.println("Hello, " + name + "! Welcome to Java.");
+        System.out.println("Hello, " + name + "! Welcome to python.");
         
         scanner.close();
     }
