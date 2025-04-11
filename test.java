@@ -7,6 +7,6 @@ public class Test {
 
     public static void main(String[] args) {
         int result = addNumbers(5, 10);
-        System.out.println("The result of adding 5 and 10 is: " + result);
+        System.out.println("The result of sum 5 and 10 is: " + result);
     }
 }
