@@ -1,0 +1,44 @@
+import java.util.Scanner;
+
+public class DollarToRupeeConverter {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Fixed exchange rate (you can update this as needed)
+        double exchangeRate = 83.12; // 1 USD = 83.12 INR (as an example)
+
+        // Input from user
+        System.out.print("Enter amount in USD: ");
+        double dollars = scanner.nextDouble();
+
+        // Convert to INR
+        double rupees = dollars * exchangeRate;
+
+        // Output the result
+        System.out.printf("%.2f USD = %.2f INR%n", dollars, rupees);
+
+        scanner.close();
+    }
+}
+import java.util.Scanner;
+
+public class DollarToRupeeConverter {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Fixed exchange rate (you can update this as needed)
+        double exchangeRate = 83.12; // 1 USD = 83.12 INR (as an example)
+
+        // Input from user
+        System.out.print("Enter amount in USD: ");
+        double dollars = scanner.nextDouble();
+
+        // Convert to INR
+        double rupees = dollars * exchangeRate;
+
+        // Output the result
+        System.out.printf("%.2f USD = %.2f INR%n", dollars, rupees);
+
+        scanner.close();
+    }
+}
